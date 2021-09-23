@@ -2,7 +2,11 @@ import numpy as np
 
 matrizquadrada = int(input("Definir o tamanho Matriz: "))
 Geracoes = int(input("Definir quantas geracoes: "))
-# Considerando 1 como celula viva e 0 como celula morta. 
+
+
+# Considerando 1 como celula viva e 0 como celula morta.
+# Rodar o jogo no terminal
+# A cada geração irá aplicar as condições do jogo, criando assim uma nova matriz atualizada. 
 
 def atualizacao(localCelula,N):
     valorAtualizado = np.zeros([N,N],dtype = int) #Receberá o valor atualizado, conforme as condicoes
@@ -69,7 +73,7 @@ def atualizacao(localCelula,N):
 localCelula = np.random.randint(0,2,[matrizquadrada,matrizquadrada])
 
 contGeracao = 1
-for geracao in range(Geracoes):     # 
+for geracao in range(Geracoes):     
     
     localCelula = atualizacao(localCelula,matrizquadrada)
     print("\n {} - Geracao \n".format(contGeracao) )
