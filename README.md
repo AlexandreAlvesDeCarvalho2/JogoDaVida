@@ -4,12 +4,18 @@ Este é um jogo do tipo zero-player, o que significa que sua evolução é deter
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-instalar bibioteca numpy
-Rodar o jogo no terminal
+<ul>
+<li>instalar bibioteca nump</li>
+<li>Rodar o jogo no terminal</li>
+</ul> 
+
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-Consider 1 como celula viva e 0 como celula morta.
-A cada geração irá aplicar as condições do jogo.
+<ul>
+<li>Consider 1 como celula viva e 0 como celula morta.</li>
+<li>A cada geração irá aplicar as condições do jogo.</li>
+</ul>
+
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
